@@ -1,0 +1,17 @@
+{
+  "groups": [
+    {
+      "name": "tuling.hello",
+      "type": "com.starter.tulingxueyuan.HelloProperties",
+      "sourceType": "com.starter.tulingxueyuan.HelloProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "tuling.hello.name",
+      "type": "java.lang.String",
+      "sourceType": "com.starter.tulingxueyuan.HelloProperties"
+    }
+  ],
+  "hints": []
+}

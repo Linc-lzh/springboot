@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>springboot_custome_starter</artifactId>
+        <groupId>com.tulingxueyuan.springboot</groupId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+    <description>
+        启动器（starter）是一个空的jar文件，
+        仅仅提供辅助性依赖管理，
+        这些依赖需要自动装配或其他类库。
+    </description>
+
+    <artifactId>tulingxueyuan-spring-boot-starter</artifactId>
+
+    <dependencies>
+        <!--引入autoconfigure-->
+        <dependency>
+            <groupId>com.tulingxueyuan.springboot</groupId>
+            <artifactId>tulingxueyuan-spring-boot-autoconfigure</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+
+        <!--如果当前starter 还需要其他的类库就在这里引用-->
+    </dependencies>
+
+</project>
