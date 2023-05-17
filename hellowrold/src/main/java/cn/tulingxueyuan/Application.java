@@ -3,6 +3,7 @@ package cn.tulingxueyuan;
 import cn.tulingxueyuan.controllers.HelloController;
 import org.apache.tomcat.util.buf.Utf8Encoder;
 import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.web.ServerProperties;
 import org.springframework.context.annotation.Bean;

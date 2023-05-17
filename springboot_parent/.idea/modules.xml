@@ -6,7 +6,6 @@
       <module fileurl="file://$PROJECT_DIR$/02_configuration_file/02_configuration_file.iml" filepath="$PROJECT_DIR$/02_configuration_file/02_configuration_file.iml" />
       <module fileurl="file://$PROJECT_DIR$/03_extern_configuration/03_extern_configuration.iml" filepath="$PROJECT_DIR$/03_extern_configuration/03_extern_configuration.iml" />
       <module fileurl="file://$PROJECT_DIR$/04_configutaion_inject/04_configutaion_inject.iml" filepath="$PROJECT_DIR$/04_configutaion_inject/04_configutaion_inject.iml" />
-      <module fileurl="file://$PROJECT_DIR$/05_springboot_logging/05_springboot_logging.iml" filepath="$PROJECT_DIR$/05_springboot_logging/05_springboot_logging.iml" />
       <module fileurl="file://$PROJECT_DIR$/06_springboot_logging/06_springboot_logging.iml" filepath="$PROJECT_DIR$/06_springboot_logging/06_springboot_logging.iml" />
       <module fileurl="file://$PROJECT_DIR$/07_springboot_web/07_springboot_web.iml" filepath="$PROJECT_DIR$/07_springboot_web/07_springboot_web.iml" />
       <module fileurl="file://$PROJECT_DIR$/08_springboot_web_rest/08_springboot_web_rest.iml" filepath="$PROJECT_DIR$/08_springboot_web_rest/08_springboot_web_rest.iml" />
