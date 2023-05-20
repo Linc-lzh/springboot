@@ -32,7 +32,7 @@ public class MockMvcTests {
         )
                 // 响应断言
                 .andExpect(MockMvcResultMatchers.status().isOk())   // 断言状态码为200
-                .andExpect(MockMvcResultMatchers.jsonPath("$.data.username").value("zhangsanxx"))
+                .andExpect(MockMvcResultMatchers.jsonPath("$.data.uname").value("xxxxx"))
                 .andDo(MockMvcResultHandlers.print());
     }
 
@@ -41,7 +41,7 @@ public class MockMvcTests {
     void testMockMVCPost() throws Exception {
 
         String userJson = "{\n" +
-                "  \"username\": \"徐庶\",\n" +
+                "  \"uname\": \"徐庶\",\n" +
                 "  \"address\": \"mockMVC\",\n" +
                 "  \"birthday\": \"2020/01/01\"\n" +
                 "}";

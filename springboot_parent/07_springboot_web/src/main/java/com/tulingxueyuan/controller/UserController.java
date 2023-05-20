@@ -7,6 +7,7 @@ import com.tulingxueyuan.service.UserService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiOperation;
+import io.swagger.annotations.ApiResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.web.client.RestTemplateBuilder;
 import org.springframework.context.MessageSource;
@@ -39,10 +40,10 @@ public class UserController {
     public Result getUser(@PathVariable Integer id) {
         //int a = 1 / 0;
         //LocaleContextHolder 就是一个Locale持有器  springmvc底层会自动将LocalResovler中语言设置进去
-        String messge = messageSource.getMessage("user.query.success", null, LocaleContextHolder.getLocale());
+        String message = messageSource.getMessage("user.query.success", null, LocaleContextHolder.getLocale());
 
         User user = userService.getUserById(id);
-        return new Result<>(200, messge, user);
+        return new Result<>(200, message, user);
     }
 
     // 新增 /user/add

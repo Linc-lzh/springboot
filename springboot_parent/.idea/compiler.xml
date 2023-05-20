@@ -43,7 +43,7 @@
       <module name="10_springboot_freemarker" options="-parameters" />
       <module name="11_springboot_mybatis" options="-parameters" />
       <module name="12_springboot_custom_starters" options="-parameters" />
-      <module name="12_springboot_starter" options="" />
+      <module name="12_springboot_starter" options="-parameters" />
       <module name="springboot_parent" options="" />
       <module name="springboot_web_rest" options="-parameters" />
       <module name="ssf" options="-parameters" />

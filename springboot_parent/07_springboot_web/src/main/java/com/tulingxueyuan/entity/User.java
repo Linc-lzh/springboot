@@ -4,6 +4,7 @@ import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 
 import java.util.Date;
@@ -12,6 +13,7 @@ import java.util.Date;
  * @Author 徐庶   QQ:1092002729
  * @Slogan 致敬大师，致敬未来的你
  */
+@ApiModel("User Object")
 public class User {
     @JsonIgnore
     @ApiModelProperty(value = "用户id")
