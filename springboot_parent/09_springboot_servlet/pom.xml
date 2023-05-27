@@ -41,17 +41,17 @@
         </dependency>
 
 
-        <!--依赖jetty
-        <dependency>
-            <artifactId>spring-boot-starter-jetty</artifactId>
-            <groupId>org.springframework.boot</groupId>
-        </dependency>-->
+        <!--依赖jetty-->
+<!--        <dependency>-->
+<!--            <artifactId>spring-boot-starter-jetty</artifactId>-->
+<!--            <groupId>org.springframework.boot</groupId>-->
+<!--        </dependency>-->
 
-        <!--依赖undertow
-        <dependency>
-            <artifactId>spring-boot-starter-undertow</artifactId>
-            <groupId>org.springframework.boot</groupId>
-        </dependency>-->
+        <!--依赖undertow-->
+<!--        <dependency>-->
+<!--            <artifactId>spring-boot-starter-undertow</artifactId>-->
+<!--            <groupId>org.springframework.boot</groupId>-->
+<!--        </dependency>-->
 
         <dependency>
             <groupId>org.springframework.boot</groupId>

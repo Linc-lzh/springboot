@@ -1,6 +1,6 @@
 package com.tulingxueyuan.pojo;
 
-public class Dept  {
+public class Dept {
     private Integer id;
 
     private String deptName;
